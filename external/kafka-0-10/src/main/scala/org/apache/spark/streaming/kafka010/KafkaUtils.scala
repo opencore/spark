@@ -26,7 +26,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.annotation.Experimental
 import org.apache.spark.api.java.{ JavaRDD, JavaSparkContext }
 import org.apache.spark.api.java.function.{ Function0 => JFunction0 }
-import org.apache.spark.internal.Logging
+import org.apache.spark.Logging
 import org.apache.spark.rdd.RDD
 import org.apache.spark.streaming.StreamingContext
 import org.apache.spark.streaming.api.java.{ JavaInputDStream, JavaStreamingContext }

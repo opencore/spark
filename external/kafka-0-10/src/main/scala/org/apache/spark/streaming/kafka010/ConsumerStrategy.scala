@@ -26,7 +26,7 @@ import org.apache.kafka.clients.consumer.internals.NoOpConsumerRebalanceListener
 import org.apache.kafka.common.TopicPartition
 
 import org.apache.spark.annotation.Experimental
-import org.apache.spark.internal.Logging
+import org.apache.spark.Logging
 
 /**
  * :: Experimental ::
